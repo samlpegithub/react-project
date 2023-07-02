@@ -13,6 +13,11 @@ app.use('/api/note',require('./router/note'))
 app.listen(port,()=>{
 
 
+
+    app.get((res,req)=>{
+   res.json("hello")
+    })
+
 console.log(`Express Server Start On Port http://localhost:${port}`);
 
 })
