@@ -14,7 +14,7 @@ app.listen(port,()=>{
 
 
 
-    app.get((res,req)=>{
+    app.get('/',(res,req)=>{
    res.json("hello")
     })
 
